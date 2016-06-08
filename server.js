@@ -13,6 +13,9 @@ app.set('views', path.join(__dirname, '/site/views'));
 app.set('view engine', 'ejs');
 app.set('view cache',false);
 
+//using static files
+app.use(express.static(path.join(__dirname,'/site/resources')));
+
 //use router module
 app.use(router);
 
