@@ -132,6 +132,7 @@ header {
 	line-height: 50px;
 	padding: 0em 1em;
 	background: #A7A7A7;
+	border-bottom: 1px solid #8A8A8A;
 }
 
 header ul:first-child {
@@ -178,4 +179,82 @@ div[search-control] > div {
 	border: 2px solid #ccc;
 	background: #e5e5e5;
 	outline: none !important;
+}
+
+/*Profile Section */
+section.profile {
+	display: table;
+	table-layout: fixed;
+	width: 90%;
+	height: 300px;
+	margin: 0px auto;
+}
+
+section.profile article {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+article.picture {
+	width: 20%;
+	height: 200px;
+}
+
+article.picture > div {
+	width: 140px;
+    height: 140px;
+    margin: 0px auto;
+    margin: 0px auto;
+    border-radius: 100px;
+    border: 1px solid #2CB0D8;
+    box-shadow: 0px -10px 20px 5px #96BEE2;
+	background: url("../images/users/profile_img.png") no-repeat top;
+	background-size: cover;
+}
+
+
+article.bio {
+	width: 46%;
+	padding: 0px 2%;
+	height: 200px;
+}
+
+article.bio h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+article.bio p {
+	text-align: left;
+	padding: 10px 0px;
+	text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+article.details {
+	width: 30%;
+	height: 200px;
+}
+
+article.details ul {
+	border: 1px solid black;
+}
+
+article.details li {
+	float: left;
+	margin: 5% 0%;
+	width: 33%;
+	border-right:1px solid black;
+}
+
+article.details li:last-child {
+	border: none;
+}
+
+article.details a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	margin: 5% 0%;
+    text-align: center;
 }
