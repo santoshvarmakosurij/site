@@ -188,6 +188,7 @@ section.profile {
 	width: 90%;
 	height: 300px;
 	margin: 0px auto;
+	border-bottom: 1px solid #AAAAAA;
 }
 
 section.profile article {
@@ -257,4 +258,77 @@ article.details a {
 	color: black;
 	margin: 5% 0%;
     text-align: center;
+}
+
+section.wall {
+	padding-top: 1em;
+}
+
+section.comments {
+	width:70%;
+	margin: 0px auto;
+	border: 1px solid #AAAAAA;
+	border-radius: 0.2em;
+}
+
+div.comments_type {
+	padding: 0% 5%;
+}
+
+div.comments_type > textarea {
+	display: block;
+	width: 96%;
+	margin: 2em auto;
+	padding: 2%;
+	outline: none;
+	resize: none;
+	border: 1px solid #AAAAAA;
+	border-radius: 0.2em;
+}
+
+div.comments_display_list {
+	padding: 0% 5%;
+	margin: 2em auto;
+}
+
+div.comments_display {
+	margin-bottom: 1em;
+}
+
+div.comments_display > div:nth-child(1) {
+	width: 80px;
+	height: 100px;
+	float: left;
+	background: url("../images/users/vlad_kachar_up.png") no-repeat top;
+	background-size: cover;
+}
+
+div.comments_display > div:nth-child(2) {
+	width: calc(100% - 180px);
+	margin: 5px auto;
+	padding: 0px 10px;
+	float: left;
+}
+
+div.user_details {
+	margin-bottom: 10px;
+}
+
+div.user_details > span:nth-child(1) {
+	font-size: 1.2em;
+}
+
+div.user_details > span:nth-child(2) {
+	font-size: 1em;
+}
+
+div.user_details > span:nth-child(3) {
+	font-size: 0.8em;
+}
+
+
+div.comments_display > div:nth-child(3) {
+	width: 80px;
+	height: 100px;
+	float: right;
 }
