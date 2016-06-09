@@ -103,6 +103,14 @@ body {
 	content:'\f044';
 }
 
+.icn-like:after {
+	content:'\f164';
+}
+
+.icn-unlike:after {
+	content:'\f165';
+}
+
 
 .btn {
 	width:50px;
@@ -328,7 +336,17 @@ div.user_details > span:nth-child(3) {
 
 
 div.comments_display > div:nth-child(3) {
+	display: table;
 	width: 80px;
 	height: 100px;
 	float: right;
+}
+
+div.comments_display > div:nth-child(3) > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div.comments_display > div:nth-child(3) p {
+	margin-top: 10px;
 }
