@@ -145,12 +145,10 @@ header {
 
 header ul:first-child {
 	float: left;
-	margin-right: 2em;
 }
 
 header ul:last-child {
 	float: right;
-	margin-right: 2em;
 }
 
 header ul li {
@@ -349,4 +347,56 @@ div.comments_display > div:nth-child(3) > div {
 
 div.comments_display > div:nth-child(3) p {
 	margin-top: 10px;
+}
+
+/*Blog Page */
+section.blog {
+
+}
+
+aside.blog-list {
+	float: left;
+	width: 24%;
+	padding: 2%;
+}
+
+aside.blog-list ul {
+	border-right: 1px solid #B6B6B6;
+}
+
+aside.blog-list ul li {
+	margin: 5% 0%;
+}
+
+article.blog-info {
+	float: left;
+	width: 66%;
+	padding: 2%;
+}
+
+article.blog-info h2 {
+	font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+article.blog-info h3 {
+	font-size: 1.2em;
+    text-align: center;
+     margin-bottom: 1em;
+}
+
+article.blog-info > p {
+	font-size: 0.8em;
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+div.blog-article {
+	margin-top: 1em;
+}
+
+div.blog-article > p {
+    line-height: 1.2em;
+	margin-bottom: 0.5em;
 }

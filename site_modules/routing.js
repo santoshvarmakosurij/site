@@ -11,4 +11,8 @@ router.get('/home',function(req,res){
   res.render('home',{});
 });
 
+router.get('/blog',function(req,res){
+  res.render('blog',{});
+});
+
 module.exports = router;
